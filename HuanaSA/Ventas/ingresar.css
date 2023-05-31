@@ -1,0 +1,119 @@
+:root {
+    --primario:#f1ac2b;
+    --p-yellow: #F0AB2A;
+    --gris:#e1e1e1e1;
+    --bg-color: #F6F6F6;
+    --bg-color2: #FEFEFE;
+    --bg-categoria: #F1F1F1;
+    --p-blue: #00142F;
+    --border-color: #EBEBEB;
+    --p-normal: #989898;
+    --p-color: #292D33;
+    --c-blue : #00122A;
+	--cl-white: #FEFEFE;
+	--cl-yellow: #F0AB2A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10vh - 50px);
+}
+h2 {
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: normal;
+    gap: 10px;
+}
+.submit{
+    align-self: center;
+}
+.form-item {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.container {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    box-shadow: 0px 1px 15px -5px #818181cc;
+}
+input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0px 1px 15px -5px #818181cc;
+}
+.form-boton {
+    padding: 10px;
+    background-color: var(--p-blue);
+    color: var(--bg-color);
+    border: none;
+}
+
+header {
+	width: 100%;
+	background-color: var(--c-blue);
+	display: flex;
+	align-items: center;
+	height: 10vh;
+}
+.header-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.header-item img {
+	margin-top: 50px;
+	width: 200px;
+}
+.header-item nav {
+	background-color: var(--cl-white);
+	width: 600px;
+	padding: 10px;
+	border-radius: 50px;
+}
+.header-item nav select{
+	background-color: var(--cl-white);
+	border: 0;
+}
+.header-item nav input {
+	background-color: var(--cl-white);
+	border: 0;
+}
+.pie {
+	background-color: var(--c-blue);
+	height: 50px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie p {
+	font-size: 15px;
+	font-weight: 200;
+	color: var(--cl-white);
+	margin: 0;
+}

@@ -1,0 +1,24 @@
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Cemento Yura", "Cemento de alta calidad para contruccion", 500, 60.0);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Ladrillo King Kong", "Ladrillo de alta calidad para construccion", 2000, 1.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Calamina de Metal", "Calaminas de aluminio para bajo precio",100, 30.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("calamina de Plastico", "Calamina de plastico para terraza marca turtle", 50, 25.5);
+
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Hoja Sierra Bimetalica", "Hoja Sierra Bimetalica de acero Inoxidable", 100, 24.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Barra Corrugada", "Ladrillo de alta calidad para construccion", 4000, 20.0);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Tuberia pvc Agua", "Tuberias Pavco de alta duracion para sus conexiones", 1000, 15.0);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Clavo para Cemento", "Clavos para construccion y encofrado", 8000, 0.2);
+
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Pegamento Terokal", "Ladrillo de alta calidad para construccion", 70, 12.0);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Lija de Agua", "Lija de agua grano 800", 110, 2.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Escalera Domestica", "Escalera Domestica metalica para interiores", 90, 1.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Perno Hexagonal", "Pernos galvanizado para sus necesidades", 800, 0.5);
+
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Tuberia pvc desague", "Tuberias Pavco de alta duracion para sus conexiones", 2000, 5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Cinta Metrica", "Cinta métrica de acero de 3 metros para mediciones precisas.", 40, 12.5);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Sierra Metalica", "Sierra metálica de alta calidad para corte de metales.", 100, 31.2);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Alicate Universal", "Alicate versátil y resistente para diversos trabajos de agarre y corte.", 200, 24.0);
+
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Llave Inglesa", "Llave ajustable de acero cromado para apretar y aflojar tuercas y pernos.", 50, 11.0);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Martillo Carpintero", "Martillo de carpintero con mango de madera y cabeza de acero para trabajos de construcción y carpintería.", 40, 21.6);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Destornillador Estrella", "Destornillador de punta estrella con mango ergonómico para realizar ajustes y ensamblajes.", 70, 8.2);
+INSERT INTO Producto (pro_nombre, pro_descripcion, pro_stock, pro_precio) VALUES ("Broca Zanco", "Broca de acero de alta velocidad con zanco para perforar diversos materiales con precisión.", 1500, 4.3);

@@ -1,0 +1,423 @@
+
+:root{
+    --fuentePrincipal:'Times New Roman', Times, serif;
+    --primario:#f1ac2b;
+    --p-yellow: #F0AB2A;
+    --gris:#e1e1e1e1;
+    --bg-color: #F6F6F6;
+    --bg-color2: #FEFEFE;
+    --bg-categoria: #F1F1F1;
+    --p-blue: #00142F;
+    --border-color: #EBEBEB;
+    --p-normal: #989898;
+    --p-color: #292D33;
+}
+
+html{
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Rubick',sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+.contenedor{
+    width: min(100%,120rem);
+    margin: 0 auto;
+}
+
+.nav-header {
+    width: 100%;
+    box-shadow: 0px 1px 15px -5px #818181cc;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    padding: 2px;
+}
+
+a:hover{
+    color: var(--bg-categoria);
+    background-color: var(--p-yellow);
+    border-radius: 5px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Rubick', sans-serif;
+    line-height: 1.2;
+    color: var(--p-color);
+    font-weight: 400;
+}
+
+h1{
+    font-size:2.8rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+h3{
+    font-size:2.2rem;
+}
+
+h4{
+    font-size:1.8rem;
+}
+
+
+img{
+    max-width:100%;
+}
+
+/*Utilidades*/
+
+.no-margin{
+    margin:0;
+}
+
+.no-padding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.centrar-teto{
+    text-align: left;
+}
+
+
+/*HEADER*/
+header {
+	width: 100%;
+	background-color: var(--p-blue);
+	display: flex;
+	align-items: center;
+	height: 10vh;
+}
+.header-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.header-item img {
+	margin-top: 50px;
+	width: 200px;
+}
+.header-item nav {
+	background-color: var(--bg-categoria);
+	width: 600px;
+	padding: 10px;
+	border-radius: 50px;
+    display: flex;
+}
+.header-item nav select{
+	background-color: var(--cl-white);
+	border: 0;
+}
+.header-item nav input {
+	background-color: var(--cl-white);
+	border: 0;
+}
+.go-venta {
+    background-color: var(--border-color);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-size: 500;
+}
+
+
+.header {
+    background-color: var(--bg-categoria);
+    height: 10rem;
+}
+.nav-toggle {
+    border: 0;
+    background-color: var(--bg-categoria);
+}
+.barra{
+    height: 50px;
+}
+@media(min-width:768px){
+    
+    .barra,
+    .icon
+    {
+        gap: 15px;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .navegacion{
+        display:flex;
+        gap:2rem;
+    }
+}
+
+
+
+
+.navegacion__enlace{
+    display:block;
+    text-align:center
+    
+}
+/*GRID*/
+
+.grid{
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    font-style: bold;
+    font-weight: 900;
+}
+
+@media(min-width:768px){
+    .grid{
+        grid-template-columns:repeat(3,1fr) ;
+    }
+}
+
+/*productos*/
+
+.producto_nombre__one{
+    color: var(--p-yellow);
+    font-size:3rem;
+    font-weight:700;
+}
+.producto_nombre-bold{
+    font-size:3rem;
+    font-weight: 700;
+    color:var(--p-blue);
+}
+
+.producto_nombre__two{
+    color: var(--p-blue);
+    font-size:2.5rem;
+    font-weight:900;
+}
+
+.producto_nombre{
+    color: var(--p-blue);
+    font-size:2rem;
+    font-weight: 900;
+}
+
+.producto_nombre{
+    margin:1rem 0;
+    text-align:left;
+    line-height:1.2;
+}
+/*GRAFICOS*/
+.graficos{
+    min-height: 30rem;
+    background-repeat: no-repeat;
+    background-size: 1/3;
+}
+
+.graficos_down{
+    min-height: 15rem;
+    background-repeat:no-repeat;
+    background-size: 1/3;
+}
+
+.grafico--guantes{
+    grid-column:1/3 ;
+    background-image: url(../img/bg_icon.png);
+    background-size: cover;
+}
+
+.grafico--cascos{
+    flex-direction: column;
+    background-image: url(../img/bg_icon.png);
+    background-size: cover;
+}
+
+.grafico--calzado{
+    background-image: url(../img/bg_icon.png);
+}
+.grafico--gafas{
+    background-image: url(../img/bg_icon.png);
+}
+
+.grafico--facial{
+    background-image: url(../img/bg_icon.png);
+}
+
+
+
+.contenedor-article  {
+    margin-top: 50px;
+    background-color: var(--bg-color2);
+}
+
+
+/*barra contenido*/
+
+.barra-contenido .barra{
+    background-color: var(--bg-color2);
+    list-style: none;
+}
+
+.select-list{
+    background-color: var(--bg-color2);
+    border: none;
+    size: 2;
+}
+
+
+
+/*GRID 2*/
+
+.grid-two{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+    margin: 0 30px;
+}
+
+@media(min-width:768px){
+    .grid-two{
+        grid-template-columns:repeat(4,1fr) ;
+    }
+}
+
+.producto{
+    padding: 2rem;
+    border:1px solid var(--border-color);
+    border-radius: 1rem;
+}
+.article-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.article-item img{
+    width: 150px;
+}
+
+/*APARTADO DESCUENTO */
+
+.contenedor_capitan{
+    margin-top:2rem;
+}
+
+#contenedor-descuento{
+    min-height:30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg_icon.png);
+    font-size: 45px;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+.img-descuento{
+    margin:3rem 0 0 5rem;
+}
+
+.contenedor-descuento__texto {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+@media(min-width:768px){
+    #contenedor-descuento{
+        display:flex;
+        justify-content: space-between;
+    }
+    .contenedor-descuento__imagen,
+    .contenedor-descuento__texto{
+        flex-basis: calc(50% - 1rem);
+        color: var(--p-blue);
+    }
+}
+
+#contenedor-descuento p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+.descuento-orange {
+    color: var(--p-yellow);
+}
+.price {
+    display: inline-flex;
+    gap: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.c-price {
+    color: var(--p-normal);
+    text-decoration: line-through;
+}
+
+/*APARTADO DE SEGURIDAD INDUSTRIAL*/
+
+
+.content_starck{
+    margin-top:2rem;
+}
+#industrialPricipal {
+    padding: 2rem 10rem;
+    font-family: 'Rubick',sans-serif;
+}
+.list-seguridad-industrial{
+    list-style: none;
+}
+
+.content_starck {
+    background-color: var(--bg-color2);
+}
+
+@media(min-width:768px){
+    .contenedor-industrial{
+        
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    .contenedor-seguridad-industrial{
+        flex-basis: calc(50% - 1rem);
+    }
+}
+
+.pie {
+	height: 50px;
+	width: 100%;
+	background-color: var(--p-blue);
+    display: inline-flex;
+    justify-content: center;
+}
+.pie p {
+    font-size: 15px;
+    color: var(--bg-categoria);
+    align-self: center;
+}
